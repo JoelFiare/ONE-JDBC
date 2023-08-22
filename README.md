@@ -19,3 +19,12 @@
 * Protegí la aplicación de posibles ataques de SQL injection utilizando PreparedStatements en vez de Statement.
 
 * Resolvi el problema de queries N+1 utilizando INNER JOIN para no tener que realizar más de una conexión a la base de datos para buscar todos los recursos que tienen relación entre categoría y producto.
+
+ ## Base de Datos:
+ [control_de_stock.sql](https://github.com/JoelFiare/ONE-JDBC/blob/main/resources/DB%20control_de_stock.sql)
+
+  ## Vista Previa:
+![](https://github.com/JoelFiare/ONE-JDBC/blob/main/resources/Interfaz-01.jpg)
+![](https://github.com/JoelFiare/ONE-JDBC/blob/main/resources/Interfaz-02.jpg)
+
+
