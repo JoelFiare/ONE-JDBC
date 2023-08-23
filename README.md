@@ -6,7 +6,7 @@
 ### Información:
 * Proyecto creado con Maven para manejar las dependencias.
 
-* Con JDBC y el driver de MySQL. Aplique buenas prácticas de desarrollo, y utilice algunos patrones de diseño para optimizar la reutilización del código, como por ejemplo el patrón factory que utilice en la connectionFactory para tomar conexiones con la base de datos.
+* Con la API JDBC y el driver de MySQL. Aplique buenas prácticas de desarrollo, y utilice algunos patrones de diseño para optimizar la reutilización del código, como por ejemplo el patrón factory que utilice en la connectionFactory para tomar conexiones con la base de datos.
 
 * Utilice el patrón DAO, que centraliza las operaciones de acceso a un recurso específico. En este caso, tenemos el recurso de categoría, las tablas de la base de datos, que son la categoría y el producto. Y las clases DAO hacen justamente todo ese manejo de las conexiones de acceso a las fuentes de datos.
 
